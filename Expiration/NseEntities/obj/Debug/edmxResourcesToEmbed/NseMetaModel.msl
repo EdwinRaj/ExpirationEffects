@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NseModelStoreContainer" CdmEntityContainer="NseContext">
+    <EntitySetMapping Name="DerivativeTypes">
+      <EntityTypeMapping TypeName="NseModel.DerivativeType">
+        <MappingFragment StoreEntitySet="DerivativeType">
+          <ScalarProperty Name="DerviativeType" ColumnName="DerviativeType" />
+          <ScalarProperty Name="DerivativeTypeId" ColumnName="DerivativeTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Symbols">
+      <EntityTypeMapping TypeName="NseModel.Symbol">
+        <MappingFragment StoreEntitySet="Symbol">
+          <ScalarProperty Name="DerivativeTypeId" ColumnName="DerivativeTypeId" />
+          <ScalarProperty Name="SymbolName" ColumnName="SymbolName" />
+          <ScalarProperty Name="SymbolId" ColumnName="SymbolId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpirationDetails">
+      <EntityTypeMapping TypeName="NseModel.ExpirationDetail">
+        <MappingFragment StoreEntitySet="ExpirationDetail">
+          <ScalarProperty Name="SymbolId" ColumnName="SymbolId" />
+          <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+          <ScalarProperty Name="ExpirationYear" ColumnName="ExpirationYear" />
+          <ScalarProperty Name="ExpirationId" ColumnName="ExpirationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

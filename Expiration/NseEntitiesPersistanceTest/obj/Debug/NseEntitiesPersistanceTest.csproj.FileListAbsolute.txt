@@ -1,0 +1,14 @@
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntitiesPersistanceTest\bin\Debug\NseEntitiesPersistanceTest.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntitiesPersistanceTest\bin\Debug\NseEntitiesPersistanceTest.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntitiesPersistanceTest\bin\Debug\NseEntities.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntitiesPersistanceTest\bin\Debug\nunit.framework.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntitiesPersistanceTest\bin\Debug\EntityFramework.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntitiesPersistanceTest\bin\Debug\NseEntities.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntitiesPersistanceTest\bin\Debug\nunit.framework.xml
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntitiesPersistanceTest\bin\Debug\EntityFramework.xml
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntitiesPersistanceTest\obj\Debug\NseEntitiesPersistanceTest.csprojResolveAssemblyReference.cache
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntitiesPersistanceTest\obj\Debug\NseEntitiesPersistanceTest.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntitiesPersistanceTest\obj\Debug\NseEntitiesPersistanceTest.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntitiesPersistanceTest\bin\Debug\NseEntitiesPersistanceTest.dll.config
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntitiesPersistanceTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntitiesPersistanceTest\bin\Debug\EntityFramework.SqlServer.xml

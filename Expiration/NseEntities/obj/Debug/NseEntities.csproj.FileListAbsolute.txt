@@ -1,0 +1,10 @@
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntities\bin\Debug\NseEntities.dll.config
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntities\bin\Debug\NseEntities.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntities\bin\Debug\NseEntities.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntities\bin\Debug\EntityFramework.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntities\bin\Debug\EntityFramework.SqlServer.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntities\bin\Debug\EntityFramework.xml
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntities\bin\Debug\EntityFramework.SqlServer.xml
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntities\obj\Debug\NseEntities.csprojResolveAssemblyReference.cache
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntities\obj\Debug\NseEntities.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\NseEntities\obj\Debug\NseEntities.pdb

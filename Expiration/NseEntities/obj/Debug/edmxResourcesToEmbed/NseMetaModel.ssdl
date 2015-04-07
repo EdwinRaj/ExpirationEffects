@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DerivativeType">
+    <Key>
+      <PropertyRef Name="DerivativeTypeId" />
+    </Key>
+    <Property Name="DerivativeTypeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DerviativeType" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ExpirationDetail">
+    <Key>
+      <PropertyRef Name="ExpirationId" />
+    </Key>
+    <Property Name="ExpirationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ExpirationYear" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="ExpirationDate" Type="datetime" Nullable="false" />
+    <Property Name="SymbolId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Symbol">
+    <Key>
+      <PropertyRef Name="SymbolId" />
+    </Key>
+    <Property Name="SymbolId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SymbolName" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="DerivativeTypeId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Expiration_Symbol">
+    <End Role="Symbol" Type="Self.Symbol" Multiplicity="1" />
+    <End Role="ExpirationDetail" Type="Self.ExpirationDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Symbol">
+        <PropertyRef Name="SymbolId" />
+      </Principal>
+      <Dependent Role="ExpirationDetail">
+        <PropertyRef Name="SymbolId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Symbol_DerivativeType">
+    <End Role="DerivativeType" Type="Self.DerivativeType" Multiplicity="1" />
+    <End Role="Symbol" Type="Self.Symbol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DerivativeType">
+        <PropertyRef Name="DerivativeTypeId" />
+      </Principal>
+      <Dependent Role="Symbol">
+        <PropertyRef Name="DerivativeTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NseModelStoreContainer">
+    <EntitySet Name="DerivativeType" EntityType="Self.DerivativeType" Schema="NseMeta" store:Type="Tables" />
+    <EntitySet Name="ExpirationDetail" EntityType="Self.ExpirationDetail" Schema="NseMeta" store:Type="Tables" />
+    <EntitySet Name="Symbol" EntityType="Self.Symbol" Schema="NseMeta" store:Type="Tables" />
+    <AssociationSet Name="FK_Expiration_Symbol" Association="Self.FK_Expiration_Symbol">
+      <End Role="Symbol" EntitySet="Symbol" />
+      <End Role="ExpirationDetail" EntitySet="ExpirationDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Symbol_DerivativeType" Association="Self.FK_Symbol_DerivativeType">
+      <End Role="DerivativeType" EntitySet="DerivativeType" />
+      <End Role="Symbol" EntitySet="Symbol" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

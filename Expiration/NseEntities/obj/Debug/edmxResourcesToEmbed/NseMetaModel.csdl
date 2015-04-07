@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="NseContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DerivativeTypes" EntityType="NseModel.DerivativeType" />
+    <EntitySet Name="Symbols" EntityType="NseModel.Symbol" />
+    <AssociationSet Name="FK_Symbol_DerivativeType" Association="NseModel.FK_Symbol_DerivativeType">
+      <End Role="DerivativeType" EntitySet="DerivativeTypes" />
+      <End Role="Symbol" EntitySet="Symbols" />
+    </AssociationSet>
+    <EntitySet Name="ExpirationDetails" EntityType="NseModel.ExpirationDetail" />
+    <AssociationSet Name="FK_Expiration_Symbol" Association="NseModel.FK_Expiration_Symbol">
+      <End Role="Symbol" EntitySet="Symbols" />
+      <End Role="ExpirationDetail" EntitySet="ExpirationDetails" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="DerivativeType">
+    <Key>
+      <PropertyRef Name="DerivativeTypeId" />
+    </Key>
+    <Property Name="DerivativeTypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DerviativeType" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Symbols" Relationship="NseModel.FK_Symbol_DerivativeType" FromRole="DerivativeType" ToRole="Symbol" />
+  </EntityType>
+  <EntityType Name="Symbol">
+    <Key>
+      <PropertyRef Name="SymbolId" />
+    </Key>
+    <Property Name="SymbolId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SymbolName" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="DerivativeTypeId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DerivativeType" Relationship="NseModel.FK_Symbol_DerivativeType" FromRole="Symbol" ToRole="DerivativeType" />
+    <NavigationProperty Name="ExpirationDetails" Relationship="NseModel.FK_Expiration_Symbol" FromRole="Symbol" ToRole="ExpirationDetail" />
+  </EntityType>
+  <Association Name="FK_Symbol_DerivativeType">
+    <End Type="NseModel.DerivativeType" Role="DerivativeType" Multiplicity="1" />
+    <End Type="NseModel.Symbol" Role="Symbol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DerivativeType">
+        <PropertyRef Name="DerivativeTypeId" />
+      </Principal>
+      <Dependent Role="Symbol">
+        <PropertyRef Name="DerivativeTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ExpirationDetail">
+    <Key>
+      <PropertyRef Name="ExpirationId" />
+    </Key>
+    <Property Name="ExpirationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExpirationYear" Type="String" Nullable="false" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="ExpirationDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SymbolId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Symbol" Relationship="NseModel.FK_Expiration_Symbol" FromRole="ExpirationDetail" ToRole="Symbol" />
+  </EntityType>
+  <Association Name="FK_Expiration_Symbol">
+    <End Type="NseModel.Symbol" Role="Symbol" Multiplicity="1" />
+    <End Type="NseModel.ExpirationDetail" Role="ExpirationDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Symbol">
+        <PropertyRef Name="SymbolId" />
+      </Principal>
+      <Dependent Role="ExpirationDetail">
+        <PropertyRef Name="SymbolId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

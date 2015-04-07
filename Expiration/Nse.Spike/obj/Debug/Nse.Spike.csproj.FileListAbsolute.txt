@@ -1,0 +1,7 @@
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.Spike\bin\Debug\Nse.Spike.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.Spike\bin\Debug\Nse.Spike.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.Spike\bin\Debug\nunit.framework.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.Spike\bin\Debug\nunit.framework.xml
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.Spike\obj\Debug\Nse.Spike.csprojResolveAssemblyReference.cache
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.Spike\obj\Debug\Nse.Spike.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.Spike\obj\Debug\Nse.Spike.pdb

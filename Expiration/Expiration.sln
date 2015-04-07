@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NseEntities", "NseEntities\NseEntities.csproj", "{3CD51B73-73C5-4265-9E32-3B4F8EC2C39E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nse.Entities", "NseEntities\Nse.Entities.csproj", "{3CD51B73-73C5-4265-9E32-3B4F8EC2C39E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NseEntitiesPersistanceTest", "NseEntitiesPersistanceTest\NseEntitiesPersistanceTest.csproj", "{4F3F7308-1BF6-4AE0-9213-38D78083ED4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nse.Entities.Test", "NseEntitiesPersistanceTest\Nse.Entities.Test.csproj", "{4F3F7308-1BF6-4AE0-9213-38D78083ED4D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nse.Spike", "Nse.Spike\Nse.Spike.csproj", "{6C6AC671-E05A-4228-A8FB-D4FDCF7E66DE}"
 EndProject

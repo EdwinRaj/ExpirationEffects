@@ -7,8 +7,8 @@
     <ProjectGuid>{4F3F7308-1BF6-4AE0-9213-38D78083ED4D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NseEntitiesPersistanceTest</RootNamespace>
-    <AssemblyName>NseEntitiesPersistanceTest</AssemblyName>
+    <RootNamespace>Nse.Entities.Test</RootNamespace>
+    <AssemblyName>Nse.Entities.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -59,9 +59,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NseEntities\NseEntities.csproj">
+    <ProjectReference Include="..\NseEntities\Nse.Entities.csproj">
       <Project>{3CD51B73-73C5-4265-9E32-3B4F8EC2C39E}</Project>
-      <Name>NseEntities</Name>
+      <Name>Nse.Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

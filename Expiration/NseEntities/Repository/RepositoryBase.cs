@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NseEntities.Repository
+namespace Nse.Entities.Repository
 {
     /// <summary>
     /// The EF-dependent, generic repository for data access

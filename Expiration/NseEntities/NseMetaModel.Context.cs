@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NseEntities
+namespace Nse.Entities
 {
     using System;
     using System.Data.Entity;

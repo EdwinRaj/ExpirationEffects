@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using NseEntities;
+using Nse.Entities;
 using NUnit.Framework;
 
-namespace NseEntitiesPersistanceTest
+namespace Nse.Entities.Test
 {
     [TestFixture]
     public class DerivativeDataAccessTest
@@ -19,7 +19,7 @@ namespace NseEntitiesPersistanceTest
             _dependency = typeof (System.Data.Entity.SqlServer.SqlProviderServices);
         }
 
-        [Test]
+        [Test,Ignore]
         public void TestMultiThreading()
         {
             var dataAccess = new DerivativeDataAccess();

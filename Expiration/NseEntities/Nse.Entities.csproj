@@ -7,8 +7,8 @@
     <ProjectGuid>{3CD51B73-73C5-4265-9E32-3B4F8EC2C39E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NseEntities</RootNamespace>
-    <AssemblyName>NseEntities</AssemblyName>
+    <RootNamespace>Nse.Entities</RootNamespace>
+    <AssemblyName>Nse.Entities</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -57,7 +57,6 @@
       <DependentUpon>NseMetaModel.tt</DependentUpon>
     </Compile>
     <Compile Include="NseContext.cs" />
-    <Compile Include="NseMetaDataUnitOfWork.cs" />
     <Compile Include="NseMetaModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -74,12 +73,13 @@
       <DependentUpon>NseMetaModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\INseMetaDataUnitOfWork.cs" />
     <Compile Include="Repository\IRepositoryBase.cs" />
     <Compile Include="Repository\RepositoryBase.cs" />
     <Compile Include="Symbol.cs">
       <DependentUpon>NseMetaModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="UnitOfWork\INseMetaDataUnitOfWork.cs" />
+    <Compile Include="UnitOfWork\NseMetaDataUnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -105,9 +105,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UnitOfWork\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

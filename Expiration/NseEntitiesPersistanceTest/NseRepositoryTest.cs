@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NseEntities;
-using NseEntities.Repository;
+using Nse.Entities;
+using Nse.Entities.Repository;
 using NUnit.Framework;
 
-namespace NseEntitiesPersistanceTest
+namespace Nse.Entities.Test
 {
     [TestFixture]
     public class NseRepositoryTest
@@ -18,7 +18,7 @@ namespace NseEntitiesPersistanceTest
         public void InsertDerivativeTypeSuccess()
         {
             
-            var nseDbContext = new NseContext(DbConnectionString);
+            var nseDbContext = new Entities.NseContext(DbConnectionString);
             var derivativeRepository = new RepositoryBase<DerivativeType>(nseDbContext);
             derivativeRepository.Add(new DerivativeType{DerviativeType="EdwinDerivative"});
             nseDbContext.SaveChanges();
@@ -27,7 +27,7 @@ namespace NseEntitiesPersistanceTest
         [Test]
         public void InsertDerivativeTypeWithSymbolSuccess()
         {
-            var nseDbContext = new NseContext(DbConnectionString);
+            var nseDbContext = new Entities.NseContext(DbConnectionString);
             var derivativeRepository = new RepositoryBase<DerivativeType>(nseDbContext);
             derivativeRepository.Add(new DerivativeType
                                      {

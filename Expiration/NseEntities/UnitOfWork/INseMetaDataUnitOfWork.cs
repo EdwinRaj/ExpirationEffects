@@ -1,6 +1,6 @@
-﻿using NseEntities.Repository;
+﻿using Nse.Entities.Repository;
 
-namespace NseEntities.UnitOfWork
+namespace Nse.Entities.UnitOfWork
 {
     public interface INseMetaDataUnitOfWork
     {

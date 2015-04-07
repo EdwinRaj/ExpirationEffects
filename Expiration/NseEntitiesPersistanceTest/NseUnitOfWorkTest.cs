@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NseEntities;
+using Nse.Entities;
+using Nse.Entities.UnitOfWork;
 using NUnit.Framework;
 
-namespace NseEntitiesPersistanceTest
+namespace Nse.Entities.Test
 {
     [TestFixture]
     public class NseUnitOfWorkTest

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NseEntities.Repository
+namespace Nse.Entities.Repository
 {
     public interface IRepositoryBase<T> where T : class
     {

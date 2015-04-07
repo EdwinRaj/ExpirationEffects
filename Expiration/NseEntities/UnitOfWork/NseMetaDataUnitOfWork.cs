@@ -1,7 +1,7 @@
 ﻿using System;
-using NseEntities.Repository;
+using Nse.Entities.Repository;
 
-namespace NseEntities.UnitOfWork
+namespace Nse.Entities.UnitOfWork
 {
     public class NseMetaDataUnitOfWork:INseMetaDataUnitOfWork,IDisposable
     {

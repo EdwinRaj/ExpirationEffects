@@ -1,0 +1,8 @@
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\Nse.DownloadEngine.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\Nse.DownloadEngine.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\Interop.SHDocVw.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\WatiN.Core.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\WatiN.Core.xml
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\obj\Debug\Nse.DownloadEngine.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\obj\Debug\Nse.DownloadEngine.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\obj\Debug\Nse.DownloadEngine.csprojResolveAssemblyReference.cache

@@ -1,0 +1,13 @@
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine.Tests\bin\Debug\Nse.DownloadEngine.Tests.dll.config
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine.Tests\bin\Debug\Nse.DownloadEngine.Tests.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine.Tests\bin\Debug\Nse.DownloadEngine.Tests.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine.Tests\bin\Debug\Interop.SHDocVw.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine.Tests\bin\Debug\Nse.DownloadEngine.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine.Tests\bin\Debug\nunit.framework.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine.Tests\bin\Debug\WatiN.Core.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine.Tests\bin\Debug\Nse.DownloadEngine.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine.Tests\bin\Debug\nunit.framework.xml
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine.Tests\bin\Debug\WatiN.Core.xml
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine.Tests\obj\Debug\Nse.DownloadEngine.Tests.csprojResolveAssemblyReference.cache
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine.Tests\obj\Debug\Nse.DownloadEngine.Tests.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine.Tests\obj\Debug\Nse.DownloadEngine.Tests.pdb

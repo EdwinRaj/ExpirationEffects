@@ -18,8 +18,8 @@ $RECYCLE.BIN/
 *.suo
 *.user
 _ReSharper.*
-Debug/
-Release/
+Debug/*
+Release/*
 
 # Windows shortcuts
 *.lnk

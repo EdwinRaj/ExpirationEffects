@@ -1,0 +1,10 @@
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.ExcelHelper\bin\Debug\Nse.ExcelHelper.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.ExcelHelper\bin\Debug\Nse.ExcelHelper.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.ExcelHelper\bin\Debug\CsvHelper.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.ExcelHelper\bin\Debug\CsvHelper.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.ExcelHelper\bin\Debug\CsvHelper.xml
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.ExcelHelper\obj\Debug\Nse.ExcelHelper.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.ExcelHelper\obj\Debug\Nse.ExcelHelper.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.ExcelHelper\bin\Debug\EPPlus.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.ExcelHelper\bin\Debug\EPPlus.xml
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.ExcelHelper\obj\Debug\Nse.ExcelHelper.csprojResolveAssemblyReference.cache

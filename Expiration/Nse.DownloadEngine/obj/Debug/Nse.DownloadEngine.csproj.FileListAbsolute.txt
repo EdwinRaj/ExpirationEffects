@@ -6,3 +6,17 @@ D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debu
 D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\obj\Debug\Nse.DownloadEngine.dll
 D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\obj\Debug\Nse.DownloadEngine.pdb
 D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\obj\Debug\Nse.DownloadEngine.csprojResolveAssemblyReference.cache
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\EPPlus.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\Nse.Entities.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\EntityFramework.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\Nse.Entities.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\EPPlus.xml
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\EntityFramework.xml
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\Data\IndexFutureExpiryDates.xlsx
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\Data\IndexOptionsExpiryDates.xlsx
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\CsvHelper.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\CsvHelper.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\CsvHelper.xml
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\HtmlAgilityPack.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\HtmlAgilityPack.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Nse.DownloadEngine\bin\Debug\HtmlAgilityPack.xml

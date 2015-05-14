@@ -1,0 +1,75 @@
+14/04/2015 01:10:18	This log contains information about the import schema operation into project 'Nse.Database' on computer 'RINIEDWIN-PC' by user 'RiniEdwin'.
+14/04/2015 01:10:19	Import of database schema has started.
+14/04/2015 01:10:30	Gathering database options
+14/04/2015 01:10:30	Gathering users
+14/04/2015 01:10:30	Gathering roles
+14/04/2015 01:10:30	Gathering application roles
+14/04/2015 01:10:30	Gathering role memberships
+14/04/2015 01:10:30	Gathering filegroups
+14/04/2015 01:10:30	Gathering full-text catalogs
+14/04/2015 01:10:30	Gathering assemblies
+14/04/2015 01:10:30	Gathering certificates
+14/04/2015 01:10:30	Gathering asymmetric keys
+14/04/2015 01:10:30	Gathering symmetric keys
+14/04/2015 01:10:30	Gathering encrypted symmetric keys
+14/04/2015 01:10:30	Gathering schemas
+14/04/2015 01:10:41	Gathering XML schema collections
+14/04/2015 01:10:41	Gathering user-defined data types
+14/04/2015 01:10:41	Gathering user-defined types
+14/04/2015 01:10:41	Gathering table types
+14/04/2015 01:10:41	Gathering unique keys for table types
+14/04/2015 01:10:41	Gathering primary keys for table types
+14/04/2015 01:10:41	Gathering check constraints for table types
+14/04/2015 01:10:41	Gathering default constraints for table types
+14/04/2015 01:10:41	Gathering partition functions
+14/04/2015 01:10:41	Gathering partition schemes
+14/04/2015 01:10:41	Gathering functions
+14/04/2015 01:10:41	Gathering encrypted functions
+14/04/2015 01:10:41	Gathering aggregates
+14/04/2015 01:10:41	Gathering procedures
+14/04/2015 01:10:41	Gathering encrypted procedures
+14/04/2015 01:10:41	Gathering tables
+14/04/2015 01:10:41	Gathering primary keys
+14/04/2015 01:10:41	Gathering unique constraints
+14/04/2015 01:10:41	Gathering foreign keys
+14/04/2015 01:10:41	Gathering default constraints
+14/04/2015 01:10:41	Gathering check constraints
+14/04/2015 01:10:41	Gathering views
+14/04/2015 01:10:41	Gathering encrypted views
+14/04/2015 01:10:41	Gathering indexes
+14/04/2015 01:10:41	Gathering statistics
+14/04/2015 01:10:41	Gathering full-text index stoplists
+14/04/2015 01:10:41	Gathering search property lists
+14/04/2015 01:10:41	Gathering search properties
+14/04/2015 01:10:41	Gathering full-text indexes
+14/04/2015 01:10:41	Gathering column store indexes
+14/04/2015 01:10:41	Gathering spatial indexes
+14/04/2015 01:10:41	Gathering XML indexes
+14/04/2015 01:10:41	Gathering encrypted triggers
+14/04/2015 01:10:41	Gathering triggers
+14/04/2015 01:10:41	Gathering encrypted and clr ddl triggers
+14/04/2015 01:10:41	Gathering ddl triggers
+14/04/2015 01:10:41	Gathering synonyms
+14/04/2015 01:10:41	Gathering defaults
+14/04/2015 01:10:41	Gathering data constraint uddt bindings
+14/04/2015 01:10:41	Gathering rules
+14/04/2015 01:10:41	Gathering data constraint uddt bindings
+14/04/2015 01:10:41	Gathering message types
+14/04/2015 01:10:41	Gathering queues
+14/04/2015 01:10:41	Gathering contracts
+14/04/2015 01:10:41	Gathering services
+14/04/2015 01:10:41	Gathering event notifications
+14/04/2015 01:10:41	Gathering remote service bindings
+14/04/2015 01:10:41	Gathering broker priorities
+14/04/2015 01:10:41	Gathering signatures
+14/04/2015 01:10:41	Gathering data compression options
+14/04/2015 01:10:41	Gathering sequence types
+14/04/2015 01:10:41	Gathering extended properties
+14/04/2015 01:10:42	Gathering credentials
+14/04/2015 01:10:42	Gathering logins
+14/04/2015 01:10:42	Gathering server audits
+14/04/2015 01:10:42	Scanning project for duplicate elements
+14/04/2015 01:10:43	Finished duplicate element processing
+14/04/2015 01:10:43	Finished importing database.
+14/04/2015 01:10:43	A summary of the import was saved to the following location: D:\Technical\SourceCode\ExpirationEffects\Expiration\Database1\Import Schema Logs\Nse.Database_20150414121018.log
+14/04/2015 01:10:43	Click Finish to continue...

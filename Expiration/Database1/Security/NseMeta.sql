@@ -1,0 +1,3 @@
+﻿CREATE SCHEMA [NseMeta]
+    AUTHORIZATION [dbo];
+

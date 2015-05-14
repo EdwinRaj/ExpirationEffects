@@ -1,0 +1,5 @@
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Database1\bin\Debug\Nse.Database.dacpac
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Database1\bin\Debug\Database1.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Database1\bin\Debug\Database1.pdb
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Database1\obj\Debug\Database1.dll
+D:\Technical\SourceCode\ExpirationEffects\Expiration\Database1\obj\Debug\Database1.pdb

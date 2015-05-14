@@ -53,6 +53,9 @@
     <Compile Include="DerivativeType.cs">
       <DependentUpon>NseMetaModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="DTO\IndexOptionDto.cs" />
+    <Compile Include="DTO\IndexOptionMetaDataDto.cs" />
+    <Compile Include="DTO\NseIndicesDto.cs" />
     <Compile Include="ExpirationDetail.cs">
       <DependentUpon>NseMetaModel.tt</DependentUpon>
     </Compile>

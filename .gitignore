@@ -14,6 +14,13 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+# Visual Studio File
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+
 # Windows shortcuts
 *.lnk
 
